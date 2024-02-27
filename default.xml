@@ -27,6 +27,9 @@
   <project path="plugins/sidecar" name="SUASecLab/sidecar" revision="refs/heads/main" />
   <project path="plugins/websockify" name="SUASecLab/websockify-go" revision="refs/heads/main"/>
   
+  <!-- virtual machines -->
+  <project path="workspaces" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
+
   <!-- external projects -->
   <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.4.0" />
   
