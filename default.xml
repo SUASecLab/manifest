@@ -31,7 +31,7 @@
   <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.4.0" />
   
   <!-- games -->
-  <project path="games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
-  <project path="games/pacman" name="masonicGIT/pacman" revision="refs/heads/master" />
-  <project path="games/tetris" name="jakesgordon/javascript-tetris" revision="refs/heads/master" />
+  <project path="external/games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
+  <project path="external/games/pacman" name="masonicGIT/pacman" revision="refs/heads/master" />
+  <project path="external/games/tetris" name="jakesgordon/javascript-tetris" revision="refs/heads/master" />
 </manifest>
