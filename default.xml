@@ -3,23 +3,35 @@
 
   <remote  name="github"
            fetch=".."/>
+           
+  <remote name="private"
+          fetch="ssh://git@github.com" />
 
   <default remote="github"
            sync-c="true"
            sync-j="8" />
+  
+  <!-- Configuration files -->
+  <project path="configuration" name="SUASecLab/configuration" revision="refs/heads/main" remote="private" />
 
-  <!-- SUASecLab Projects -->
-  <project path="external/websockify" name="SUASecLab/websockify-go" revision="refs/heads/main"/>
-  <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.4.0" />
-  <project path="games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
-  <project path="games/pacman" name="masonicGIT/pacman" revision="refs/heads/master" />
-  <project path="games/tetris" name="jakesgordon/javascript-tetris" revision="refs/heads/master" />
+  <!-- WorkAdventure -->
+  <project path="workadventure/workadventure" name="SUASecLab/workadventure" revision="refs/heads/from-v1.18.6" />
+  <project path="workadventure/admin" name="SUASecLab/workadventure-admin" revision="refs/heads/main" />
+  <project path="workadventure/maps" name="SUASecLab/maps" revision="refs/heads/main" />
+  <project path="workadventure/extensions" name="SUASecLab/workadventure_admin_extensions" revision="refs/heads/main" />
+  
+  <!-- SUASecLab / WorkAdventure plugins -->
   <project path="plugins/assigner" name="SUASecLab/multi-user-vm-assigner" revision="refs/heads/main" />
   <project path="plugins/cinema" name="SUASecLab/cinema" revision="refs/heads/main" />
   <project path="plugins/components" name="SUASecLab/components" revision="refs/heads/main" />
-  <project path="plugins/extensions" name="SUASecLab/workadventure_admin_extensions" revision="refs/heads/main" />
   <project path="plugins/sidecar" name="SUASecLab/sidecar" revision="refs/heads/main" />
-  <project path="workadventure/admin" name="SUASecLab/workadventure-admin" revision="refs/heads/main" />
-  <project path="workadventure/maps" name="SUASecLab/maps" revision="refs/heads/main" />
-  <project path="workadventure/workadventure" name="SUASecLab/workadventure" revision="refs/heads/from-1.11" />
+  <project path="plugins/websockify" name="SUASecLab/websockify-go" revision="refs/heads/main"/>
+  
+  <!-- external projects -->
+  <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.4.0" />
+  
+  <!-- games -->
+  <project path="games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
+  <project path="games/pacman" name="masonicGIT/pacman" revision="refs/heads/master" />
+  <project path="games/tetris" name="jakesgordon/javascript-tetris" revision="refs/heads/master" />
 </manifest>
