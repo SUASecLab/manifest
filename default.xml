@@ -26,6 +26,7 @@
   <project path="plugins/components" name="SUASecLab/components" revision="refs/heads/main" />
   <project path="plugins/sidecar" name="SUASecLab/sidecar" revision="refs/heads/main" />
   <project path="plugins/websockify" name="SUASecLab/websockify-go" revision="refs/heads/main"/>
+  <project path="plugins/ctf" name="SUASecLab/ethical-hacking-ctf" revision="refs/heads/main" />
   
   <!-- virtual machines -->
   <project path="workspaces" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
