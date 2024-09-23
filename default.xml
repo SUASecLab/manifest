@@ -32,7 +32,7 @@
   <project path="workspaces" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
 
   <!-- external projects -->
-  <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.4.0" />
+  <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.5.0" />
   
   <!-- games -->
   <project path="external/games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
