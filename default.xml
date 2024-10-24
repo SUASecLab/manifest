@@ -15,7 +15,7 @@
   <project path="configuration" name="SUASecLab/configuration" revision="refs/heads/main" remote="private" />
 
   <!-- WorkAdventure -->
-  <project path="workadventure/workadventure" name="SUASecLab/workadventure" revision="refs/heads/from-v1.19.7" />
+  <project path="workadventure/workadventure" name="SUASecLab/workadventure" revision="refs/heads/from-v1.22.1" />
   <project path="workadventure/admin" name="SUASecLab/workadventure-admin" revision="refs/heads/main" />
   <project path="workadventure/maps" name="SUASecLab/maps" revision="refs/heads/main" />
   <project path="workadventure/extensions" name="SUASecLab/workadventure_admin_extensions" revision="refs/heads/main" />
