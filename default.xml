@@ -21,7 +21,6 @@
   <project path="workadventure/extensions" name="SUASecLab/workadventure_admin_extensions" revision="refs/heads/main" />
   
   <!-- SUASecLab / WorkAdventure plugins -->
-  <project path="plugins/assigner" name="SUASecLab/multi-user-vm-assigner" revision="refs/heads/main" />
   <project path="plugins/cinema" name="SUASecLab/cinema" revision="refs/heads/main" />
   <project path="plugins/components" name="SUASecLab/components" revision="refs/heads/main" />
   <project path="plugins/sidecar" name="SUASecLab/sidecar" revision="refs/heads/main" />
