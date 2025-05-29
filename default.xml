@@ -28,7 +28,7 @@
   <project path="plugins/ctf" name="SUASecLab/ethical-hacking-ctf" revision="refs/heads/main" />
   
   <!-- virtual machines -->
-  <project path="workspaces" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
+  <project path="virtual-machines" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
 
   <!-- external projects -->
   <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.6.0" />
