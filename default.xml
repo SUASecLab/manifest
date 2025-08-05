@@ -26,13 +26,11 @@
   <project path="plugins/sidecar" name="SUASecLab/sidecar" revision="refs/heads/main" />
   <project path="plugins/websockify" name="SUASecLab/websockify-go" revision="refs/heads/main"/>
   <project path="plugins/ctf" name="SUASecLab/ethical-hacking-ctf" revision="refs/heads/main" />
+  <project path="plugins/vm-control" name="SUASecLab/vm-control" revision="refs/heads/main" />
   
   <!-- virtual machines -->
   <project path="virtual-machines" name="SUASecLab/virtual-machines" revision="refs/heads/main" />
 
-  <!-- external projects -->
-  <project path="external/noVNC" name="noVNC/noVNC" revision="refs/tags/v1.6.0" />
-  
   <!-- games -->
   <project path="external/games/chess" name="zeyu2001/chess-ai" revision="refs/heads/main" />
   <project path="external/games/pacman" name="masonicGIT/pacman" revision="refs/heads/master" />
